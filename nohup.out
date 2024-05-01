@@ -1,0 +1,77 @@
+2024-05-01 02:21:12.979507: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-01 02:21:13.099686: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:21:13.099722: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-05-01 02:21:13.121054: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-01 02:21:13.605191: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:21:13.605309: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:21:13.605319: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+INFO:     Started server process [825542]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0', 8088): address already in use
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+2024-05-01 02:22:13.363874: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-01 02:22:13.484819: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:22:13.484856: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-05-01 02:22:13.507137: E tensorflow/stream_executor/cuda/cuda_blas.cc:2981] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-05-01 02:22:13.991380: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:22:13.991518: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:22:13.991539: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+INFO:     Started server process [825915]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8088 (Press CTRL+C to quit)
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Network URL: http://192.168.31.120:8501
+  External URL: http://180.164.54.190:8501
+
+  Stopping...
+INFO:     127.0.0.1:49944 - "POST /search/human_face HTTP/1.1" 200 OK
+2024-05-01 02:23:58.931575: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:23:58.931700: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublas.so.11'; dlerror: libcublas.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:23:58.931784: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcublasLt.so.11'; dlerror: libcublasLt.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:23:58.931869: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:23:58.971171: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcusparse.so.11'; dlerror: libcusparse.so.11: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:23:58.971304: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudnn.so.8'; dlerror: libcudnn.so.8: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /home/simonwsy/miniconda3/envs/quant/lib/python3.10/site-packages/cv2/../../lib64:/usr/local/cuda/lib64::/usr/local/cuda/extras/CUPTI/lib64
+2024-05-01 02:23:58.971318: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2024-05-01 02:23:58.971587: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 201ms/step
+INFO:     127.0.0.1:44142 - "POST /search/human_face HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 134ms/step
+INFO:     127.0.0.1:37900 - "POST /search/general HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 137ms/step
+INFO:     127.0.0.1:46232 - "POST /search/general HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 135ms/step
+INFO:     127.0.0.1:46792 - "POST /search/human_face HTTP/1.1" 200 OK
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x76e658e2ab00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 131ms/step
+INFO:     127.0.0.1:35590 - "POST /search/human_face HTTP/1.1" 200 OK
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x76e658e2a950> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 130ms/step
+INFO:     127.0.0.1:58162 - "POST /search/general HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 136ms/step
+INFO:     127.0.0.1:59726 - "POST /search/human_face HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 132ms/step
+INFO:     127.0.0.1:44244 - "POST /search/general HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 131ms/step
+INFO:     127.0.0.1:48102 - "POST /search/human_face HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 139ms/step
+INFO:     127.0.0.1:35436 - "POST /search/human_face HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 127ms/step
+INFO:     127.0.0.1:52754 - "POST /search/human_face HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 132ms/step
+INFO:     127.0.0.1:40818 - "POST /search/general HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 137ms/step
+INFO:     127.0.0.1:38074 - "POST /search/general HTTP/1.1" 200 OK
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 132ms/step
+INFO:     127.0.0.1:55770 - "POST /search/human_face HTTP/1.1" 200 OK

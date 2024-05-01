@@ -1,2 +1,10 @@
 VOCdevkit/*
 afhq/train*
+images/*.jpg
+images/faces/*
+**/*.pt
+**/*.mar
+**/*.pyc
+**/*.pth
+*.deb
+**/*.DS_Store
