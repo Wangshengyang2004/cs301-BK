@@ -8,3 +8,4 @@ images/faces/*
 **/*.pth
 *.deb
 **/*.DS_Store
+torch_server/*
